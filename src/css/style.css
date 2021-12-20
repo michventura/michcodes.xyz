@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    font-size: clamp(var(--min, 0.9em), var(--val, 2vw), var(--max, 1em));
+  }
+}

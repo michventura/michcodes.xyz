@@ -1,0 +1,14 @@
+# deps
+node_modules
+
+# build
+_site
+
+# secrets
+.env
+
+# macOS
+.DS_Store
+
+# other
+.netlify
